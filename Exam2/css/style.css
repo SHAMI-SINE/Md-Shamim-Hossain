@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+
+}
+
+.container{
+    background-color: black;
+    color: #ffff;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 160px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+button{
+    background-color: goldenrod;
+    color: whitesmoke;
+    border-radius: 15px;
+    height: 30px;
+    width: 60px;
+    border: 0;
+    outline: 0;
+    
+    cursor: pointer;
+}
+ button span{
+    display: block;
+    background-color: aqua;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+ }
+
+ footer{
+    height: 50px;
+    width: 25px;
+    text-align: center;
+ }
